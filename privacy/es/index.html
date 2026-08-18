@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad — BulletGo</title>
+  <meta name="description" content="Política de privacidad de BulletGo v1 por Kendryck Labs. Describe cómo esta versión de BulletGo trata la información en tu dispositivo.">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="/">
+        <span class="brand-name">BulletGo</span>
+        <span class="brand-by">by Kendryck Labs</span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="/">Home</a>
+        <a href="/privacy/" aria-current="page">Privacy</a>
+        <a href="/support/">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <article class="wrap policy">
+      <p class="kicker">Política de privacidad</p>
+      <h1>Política de privacidad</h1>
+      <p class="lang-switch"><a href="/privacy/" lang="en" hreflang="en">English</a></p>
+      <div class="page-meta">
+        <p><strong>BulletGo</strong> (versión 1)</p>
+        <p>Fecha de entrada en vigor: <strong>18 de agosto de 2026</strong><br>Última actualización: <strong>18 de agosto de 2026</strong></p>
+        <p>Editor: <strong>Kendryck Labs</strong><br>Contacto de privacidad / soporte: <a href="mailto:support@bulletgo.app">support@bulletgo.app</a></p>
+      </div>
+      <p>Esta Política de privacidad describe cómo esta versión de BulletGo trata la información en tu dispositivo. Se aplica a BulletGo v1 según está implementada actualmente.</p>
+
+      <h2>1. Quiénes somos</h2>
+      <p>BulletGo es una aplicación independiente para Android. Esta versión de BulletGo es una <strong>herramienta de detección, filtrado y alerta de ofertas</strong>. Te ayuda a notar ofertas de delivery compatibles mostradas en la app Spark Driver y a compararlas con las tiendas y los filtros que configuras.</p>
+      <p>BulletGo <strong>no</strong> es propiedad de Walmart ni de Spark Driver, no está afiliada a ellos, no está respaldada por ellos y no es un producto oficial suyo. Spark Driver, Walmart y sus nombres y marcas pertenecen a sus respectivos titulares. Esas apps y servicios se rigen por sus propios términos y políticas de privacidad.</p>
+
+      <h2>2. Qué hace esta versión de BulletGo</h2>
+      <p>Esta versión de BulletGo puede:</p>
+      <ul>
+        <li>leer información compatible de ofertas mostrada en Spark Driver mientras el monitoreo de BulletGo está activo;</li>
+        <li>comparar esa información con tus My Stores y Filter Profiles;</li>
+        <li>generar un Match cuando una oferta cumple tus preferencias;</li>
+        <li>notificarte, de forma opcional, con una notificación de Android, sonido y/o vibración;</li>
+        <li>mostrar, de forma opcional, una tarjeta Match Overlay sobre otras apps;</li>
+        <li>guardar localmente las ofertas que coinciden para que puedas revisarlas en Activity;</li>
+        <li>calcular Statistics y Quick Stats a partir de esa información local.</li>
+      </ul>
+      <p>Esta versión de BulletGo <strong>no</strong> usa AccessibilityService para aceptar o rechazar ofertas automáticamente, pulsar botones, hacer scroll ni controlar de otro modo la app Spark Driver.</p>
+
+      <h2>3. Android Accessibility</h2>
+      <p>BulletGo utiliza Android Accessibility para leer <strong>información de ofertas compatibles mostrada en la app Spark Driver</strong> mientras el monitoreo de BulletGo está activo.</p>
+      <p>Esta versión de BulletGo limita ese procesamiento a la app Spark Driver. No usa Accessibility para leer otras apps con el fin de evaluar ofertas.</p>
+      <p>Mientras el monitoreo está activo, BulletGo puede procesar detalles de la oferta como:</p>
+      <ul>
+        <li>importe de pago</li>
+        <li>millas</li>
+        <li>duración estimada</li>
+        <li>número de paradas</li>
+        <li>tienda</li>
+        <li>tipo de oferta</li>
+      </ul>
+      <p>BulletGo usa esta información para comparar la oferta con las tiendas y los filtros que configuras y para avisarte cuando hay un Match.</p>
+      <p>Activar Accessibility en Ajustes de Android <strong>no</strong> es lo mismo que iniciar el monitoreo. Tú controlas cuándo BulletGo procesa las pantallas de ofertas compatibles de Spark Driver con <strong>START</strong> y <strong>STOP</strong> en BulletGo. Si Accessibility está activado pero el monitoreo está detenido, esta versión de BulletGo no procesa esas pantallas de ofertas.</p>
+      <p>Accessibility es necesario para la función principal de monitoreo de ofertas. Puedes abrir y configurar BulletGo sin él, pero esta versión no puede monitorear ofertas de Spark Driver a menos que Accessibility esté habilitado y el monitoreo esté activo.</p>
+
+      <h2>4. Información almacenada en tu dispositivo</h2>
+      <p>Esta versión de BulletGo guarda información <strong>localmente en tu dispositivo</strong> para que la app funcione. Eso puede incluir:</p>
+      <ul>
+        <li><strong>My Stores</strong> y qué códigos de tienda tienes habilitados</li>
+        <li><strong>Filter Profiles</strong> y los criterios que definas (por ejemplo pago mínimo, millas máximas, paradas, duración, tarifas y modos de oferta)</li>
+        <li>preferencias de alerta y overlay (notificaciones, sonido, vibración, si se muestra el Match Overlay y la posición del overlay)</li>
+        <li>estado de monitoreo e información de tiempo activo usada en Quick Stats</li>
+        <li>progreso de onboarding / configuración inicial</li>
+        <li>nombres de tienda observados en pantallas de ofertas compatibles de Spark Driver</li>
+        <li>registros de <strong>Match History / Activity</strong> (descritos más abajo)</li>
+      </ul>
+      <p>BulletGo no te pide crear una cuenta de BulletGo, y esta versión no recopila tu nombre, correo, teléfono ni dirección particular como datos de cuenta.</p>
+
+      <h2>5. Activity (historial de Matches)</h2>
+      <p>Activity es una función de BulletGo. Cuando una oferta coincide con tus preferencias, esta versión de BulletGo puede guardar un registro local para que lo revises después.</p>
+      <p>Un Match almacenado puede incluir:</p>
+      <ul>
+        <li>pago</li>
+        <li>millas</li>
+        <li>duración</li>
+        <li>número de paradas</li>
+        <li>tienda y código de tienda</li>
+        <li>tipo / modo de oferta</li>
+        <li>qué filtro(s) coincidieron</li>
+        <li>fecha y hora</li>
+      </ul>
+      <p>Esta versión de BulletGo conserva un número limitado de Matches recientes en el dispositivo. No guarda el texto completo de Accessibility, nombres de clientes ni direcciones de clientes como campos de Activity.</p>
+
+      <h2>6. Statistics y Quick Stats</h2>
+      <p><strong>Statistics</strong> se calculan en tu dispositivo a partir del Match History local. No se envían a servidores operados por BulletGo.</p>
+      <p><strong>Quick Stats</strong> en Home resume información local así:</p>
+      <ul>
+        <li><strong>MATCHES</strong> — cuántos Matches tienes guardados</li>
+        <li><strong>AVG $/HR</strong> — pago promedio por hora de los Matches guardados</li>
+        <li><strong>ACTIVE TIME</strong> — cuánto tiempo ha estado activo el monitoreo en la sesión actual o en la última</li>
+      </ul>
+      <p>Si usas Clear History, Statistics y los Quick Stats basados en Matches se recalculan a partir del historial local restante (vacío). Active Time se basa en el tiempo de la sesión de monitoreo, no en el Match History.</p>
+
+      <h2>7. Notificaciones</h2>
+      <p>Si lo permites, BulletGo puede usar notificaciones de Android para avisarte cuando una oferta coincide con tus preferencias. Según tu configuración, una alerta de Match puede incluir:</p>
+      <ul>
+        <li>una notificación</li>
+        <li>sonido</li>
+        <li>vibración</li>
+      </ul>
+      <p>Las notificaciones son opcionales. Si las desactivas o deniegas el permiso de notificaciones de Android, esta versión de BulletGo puede seguir detectando Matches, guardar Activity y mostrar el Match Overlay (si el overlay está activado y permitido).</p>
+
+      <h2>8. Match Overlay</h2>
+      <p>Si lo permites, BulletGo puede mostrar una tarjeta Match Overlay sobre otras apps cuando ocurre un Match. Esta versión del overlay:</p>
+      <ul>
+        <li>muestra información del Match;</li>
+        <li>puedes moverla y cerrarla, y también se oculta sola al cabo de un tiempo breve;</li>
+        <li><strong>no</strong> acepta ni rechaza una oferta y no controla Spark Driver.</li>
+      </ul>
+      <p>Mostrar sobre otras apps es opcional. El matching y Activity de BulletGo pueden funcionar sin el permiso de overlay.</p>
+
+      <h2>9. Permisos y capacidades</h2>
+      <p>Esta versión de BulletGo utiliza estas capacidades visibles para el usuario:</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Capacidad</th>
+              <th scope="col">Para qué se usa</th>
+              <th scope="col">¿Obligatoria?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Accessibility</th>
+              <td>Leer información de ofertas compatibles mostrada en Spark Driver mientras el monitoreo está activo</td>
+              <td>Necesaria para el monitoreo de ofertas</td>
+            </tr>
+            <tr>
+              <th scope="row">Notifications</th>
+              <td>Avisarte cuando una oferta coincide con tus filtros</td>
+              <td>Opcional</td>
+            </tr>
+            <tr>
+              <th scope="row">Mostrar sobre otras apps</th>
+              <td>Mostrar el Match Overlay</td>
+              <td>Opcional</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <p>La vibración, si está activada, se usa solo como parte de las alertas de Match que configuras.</p>
+
+      <h2>10. Cómo procesa la información esta versión (sin servidores de BulletGo)</h2>
+      <p>Esta versión de BulletGo evalúa las ofertas compatibles <strong>en tu dispositivo</strong>.</p>
+      <p>Esta versión de BulletGo no incluye permiso de internet, cliente de red, analítica, publicidad, telemetría ni SDKs de Firebase. No transmite información de ofertas ni tu configuración de BulletGo a servidores operados por BulletGo.</p>
+      <p>Esta afirmación se aplica a <strong>BulletGo</strong>. No describe Spark Driver, Android, Google Play, el fabricante del dispositivo ni otras apps. Esos servicios son independientes y tienen sus propias prácticas.</p>
+      <p>Esta versión de BulletGo <strong>no vende</strong> la información que procesa.</p>
+
+      <h2>11. Cuánto tiempo se conserva la información</h2>
+      <p>La información guardada localmente permanece en tu dispositivo durante el uso normal hasta que la cambias o la eliminas en BulletGo, o hasta que desinstalas la app, sujeto al comportamiento de Android.</p>
+      <p>Esta versión de BulletGo no aplica un borrado automático del tipo “eliminar a los 30 días”. El Match History está limitado a un número acotado de registros locales recientes.</p>
+      <p>Puedes:</p>
+      <ul>
+        <li>usar <strong>Clear History</strong> en Activity para eliminar el Match History (las Statistics derivadas de ese historial se reinician en consecuencia);</li>
+        <li>agregar, editar, activar, desactivar o eliminar <strong>My Stores</strong> y <strong>Filter Profiles</strong>;</li>
+        <li>cambiar notificaciones, sonido, vibración, overlay y monitoreo.</li>
+      </ul>
+      <p>Desinstalar BulletGo elimina los datos locales de la app. Esta versión de BulletGo <strong>no</strong> participa en la copia de seguridad automática de datos de aplicaciones de Android (<code>allowBackup</code> está desactivado).</p>
+      <p>Esta versión de BulletGo no ofrece Backup &amp; Restore en Settings.</p>
+
+      <h2>12. Seguridad</h2>
+      <p>BulletGo limita la información que procesa a lo necesario para sus funciones actuales y la almacena localmente en tu dispositivo. Ningún almacenamiento en un dispositivo personal puede garantizarse frente a cualquier forma de acceso. Protege tu dispositivo con el bloqueo de pantalla y las actualizaciones del sistema que proporciona Android.</p>
+
+      <h2>13. Menores</h2>
+      <p>BulletGo está pensada para personas que utilizan servicios de delivery/driver. No está dirigida a menores de 13 años, y esta versión de BulletGo no recopila a sabiendas información personal de menores.</p>
+
+      <h2>14. Cambios a esta política</h2>
+      <p>Podemos actualizar esta Política de privacidad si cambian las funciones o las prácticas de datos de BulletGo. Eso incluye posibles cambios futuros en el uso de Accessibility. La fecha de “Última actualización” del encabezado cambiará cuando revisemos esta política. La política actualizada se aplicará a la versión de BulletGo que describa en ese momento.</p>
+
+      <h2>15. Contacto</h2>
+      <p>Preguntas sobre esta Política de privacidad o sobre las prácticas de datos de BulletGo:</p>
+      <div class="contact-block">
+        <p>Developer / Publisher: <strong>Kendryck Labs</strong></p>
+        <p>Application: <strong>BulletGo</strong></p>
+        <p>Email: <a href="mailto:support@bulletgo.app">support@bulletgo.app</a></p>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <p class="footer-meta">© 2026 Kendryck Labs</p>
+        <p class="footer-meta">BulletGo</p>
+      </div>
+      <nav class="footer-links" aria-label="Pie de página">
+        <a href="/privacy/">Privacy Policy</a>
+        <a href="/support/">Support</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
